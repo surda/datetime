@@ -1,8 +1,7 @@
-# WebLoader
+# Datetime utils
 
-[![Build Status](https://travis-ci.org/surda/webloader.svg?branch=master)](https://travis-ci.org/surda/webloader)
-[![Licence](https://img.shields.io/packagist/l/surda/webloader.svg?style=flat-square)](https://packagist.org/packages/surda/webloader)
-[![Latest stable](https://img.shields.io/packagist/v/surda/webloader.svg?style=flat-square)](https://packagist.org/packages/surda/webloader)
+[![Licence](https://img.shields.io/packagist/l/surda/datetime.svg?style=flat-square)](https://packagist.org/packages/surda/datetime)
+[![Latest stable](https://img.shields.io/packagist/v/surda/datetime.svg?style=flat-square)](https://packagist.org/packages/surda/datetime)
 [![PHPStan](https://img.shields.io/badge/PHPStan-enabled-brightgreen.svg?style=flat)](https://github.com/phpstan/phpstan)
 
 ## Installation
