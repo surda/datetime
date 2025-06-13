@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE latte PUBLIC "-//LATTE//Latte plugin XML V0.0.1//EN" ".idea/intellij-latte-pro/xmlSources/Latte.dtd">
+<latte vendor="surda/latte-intellij-pro" version="1">
+    <filters>
+        <filter name="firstDayOfPrevYear">
+            <filterArguments>
+                <filterArgument name="datetime" type="\DateTimeImmutable"/>
+            </filterArguments>
+        </filter>
+        <filter name="lastDayOfPrevYear">
+            <filterArguments>
+                <filterArgument name="datetime" type="\DateTimeImmutable"/>
+            </filterArguments>
+        </filter>
+        <filter name="firstDayOfPrevMonth">
+            <filterArguments>
+                <filterArgument name="datetime" type="\DateTimeImmutable"/>
+            </filterArguments>
+        </filter>
+        <filter name="lastDayOfPrevMonth">
+            <filterArguments>
+                <filterArgument name="datetime" type="\DateTimeImmutable"/>
+            </filterArguments>
+        </filter>
+        <filter name="firstDayOfNextMonth">
+            <filterArguments>
+                <filterArgument name="datetime" type="\DateTimeImmutable"/>
+            </filterArguments>
+        </filter>
+        <filter name="lastDayOfNextMonth">
+            <filterArguments>
+                <filterArgument name="datetime" type="\DateTimeImmutable"/>
+            </filterArguments>
+        </filter>
+        <filter name="firstDayOfMonth">
+            <filterArguments>
+                <filterArgument name="datetime" type="\DateTimeImmutable"/>
+            </filterArguments>
+        </filter>
+        <filter name="lastDayOfMonth">
+            <filterArguments>
+                <filterArgument name="datetime" type="\DateTimeImmutable"/>
+            </filterArguments>
+        </filter>
+        <filter name="days">
+            <filterArguments>
+                <filterArgument name="datetime" type="\DateTimeImmutable"/>
+            </filterArguments>
+        </filter>
+        <filter name="day">
+            <filterArguments>
+                <filterArgument name="datetime" type="\DateTimeImmutable"/>
+            </filterArguments>
+        </filter>
+        <filter name="month">
+            <filterArguments>
+                <filterArgument name="datetime" type="\DateTimeImmutable"/>
+            </filterArguments>
+        </filter>
+        <filter name="year">
+            <filterArguments>
+                <filterArgument name="datetime" type="\DateTimeImmutable"/>
+            </filterArguments>
+        </filter>
+        <filter name="firstDayOfPrevWeek">
+            <filterArguments>
+                <filterArgument name="datetime" type="\DateTimeImmutable"/>
+            </filterArguments>
+        </filter>
+        <filter name="lastDayOfPrevWeek">
+            <filterArguments>
+                <filterArgument name="datetime" type="\DateTimeImmutable"/>
+            </filterArguments>
+        </filter>
+        <filter name="firstDayOfThisWeek">
+            <filterArguments>
+                <filterArgument name="datetime" type="\DateTimeImmutable"/>
+            </filterArguments>
+        </filter>
+        <filter name="lastDayOfThisWeek">
+            <filterArguments>
+                <filterArgument name="datetime" type="\DateTimeImmutable"/>
+            </filterArguments>
+        </filter>
+        <filter name="firstDayOfNextWeek">
+            <filterArguments>
+                <filterArgument name="datetime" type="\DateTimeImmutable"/>
+            </filterArguments>
+        </filter>
+        <filter name="lastDayOfNextWeek">
+            <filterArguments>
+                <filterArgument name="datetime" type="\DateTimeImmutable"/>
+            </filterArguments>
+        </filter>
+    </filters>
+</latte>
