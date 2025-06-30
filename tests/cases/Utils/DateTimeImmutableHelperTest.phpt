@@ -76,6 +76,8 @@ class DateTimeImmutableHelperTest extends TestCase
 
     public function testMonth()
     {
+        Assert::same(3, DateTimeImmutableHelper::month(DateTimeImmutable::createFromFormat('Y-m-d H:i:s u', '2022-03-01 00:00:00 000000')));
+        Assert::same(6, DateTimeImmutableHelper::month(DateTimeImmutable::createFromFormat('Y-m-d H:i:s u', '2022-06-01 00:00:00 000000')));
         Assert::same(12, DateTimeImmutableHelper::month(DateTimeImmutable::createFromFormat('Y-m-d H:i:s u', '2022-12-01 00:00:00 000000')));
     }
 

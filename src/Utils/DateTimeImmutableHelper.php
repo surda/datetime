@@ -61,7 +61,7 @@ class DateTimeImmutableHelper
 
     public static function month(DateTimeImmutable $datetime): int
     {
-        return (int) $datetime->format('h');
+        return (int) $datetime->format('n');
     }
 
     public static function year(DateTimeImmutable $datetime): int
